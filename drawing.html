@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WORKSXnei</title>
+
+</head>
+<style>
+    @media(max-width:319px){
+        .flower {
+            position: fixed;
+            z-index: -1;
+            width:260%;
+            height:100%;
+            display: block;
+        }
+        body {
+            background: linear-gradient(#fafaa4,#f9d2ff);
+            background-repeat: repeat;
+            background-attachment: fixed;
+            text-align: center;
+        }
+        header {
+            background-color: rgb(0, 0, 0);
+        }
+        header::after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+        nav {
+            float: left;
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        li {
+            display: inline-block;
+            margin-left: 25px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        a {
+            color: rgb(255, 255, 255);
+            font-size: 14px;;
+            text-decoration: none;
+            font-family: '';
+        }
+        a:hover {
+            color: rgb(255, 0, 0);
+            text-decoration: underline;
+        }
+        .head {
+            text-align: center;
+        }
+        img{
+            display: block;
+            margin: auto auto;
+            margin-bottom: 30px;
+        }
+        .pic1{
+            margin-top:20px;
+        }
+        h1 {
+            border: solid 1.9px black;
+            border-radius: 30px 0px 30px 0px;
+            padding: 10px;
+            margin-left: 20px;
+            margin-right:20px;
+            font-size: 27px;
+            background-color: white;
+        }
+        .button {
+            font-size: 14px;
+            margin: 10px;
+            padding: 8px;
+            border: solid 1.5px black;
+            border-radius: 17px;
+            background-color: rgb(236, 249, 255);
+        }
+        .pic2 {
+            border: solid 2px rgb(170, 135, 161);
+        }
+         .pic3 {
+             border: solid 2px rgb(180, 162, 137); 
+         }
+         .pic4 {
+             
+             border: solid 2px rgb(133, 78, 6);
+         }
+         .picc {
+         
+             text-align: center;
+         }
+         .pic5 {
+             border: solid 2px rgb(212, 116, 113);
+             
+         }
+         .pic6 {
+             
+             border: solid 2px rgb(182, 182, 182);
+             
+         }
+         .pic7 {
+             border: solid 2px rgb(189, 119, 101);
+            
+         }
+         .pic8 {
+             border: solid 2px rgb(68, 155, 196);
+         }
+    }
+
+@media(min-width:320px) and (max-width:480px){
+    .flower {
+        position: fixed;
+        z-index: -1;
+        width:260%;
+        height:100%;
+        display: block;
+    }
+    body {
+        background: linear-gradient(#fafaa4,#f9d2ff);
+        background-repeat: repeat;
+        background-attachment: fixed;
+        text-align: center;
+    }
+
+    header {
+        background-color: rgb(0, 0, 0);
+    }
+
+    header::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+    nav {
+        float: left;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+        margin-left: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    a {
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        text-decoration: none;
+        font-family: '';
+    }
+
+    a:hover {
+        color: rgb(255, 0, 0);
+        text-decoration: underline;
+    }
+    .button {
+        font-size: 15px;
+        margin: 10px 30px 0px 30px;
+        padding: 8px;
+        border: solid 1.5px black;
+        border-radius: 17px;
+        background-color: rgb(236, 249, 255);
+       
+    }
+    h1 {
+        border: solid 1.9px black;
+        border-radius: 30px 0px 30px 0px;
+        padding: 10px;
+        margin-left: 20px;
+        margin-top: 30px;
+        margin-right:20px;
+        font-size: 27px;
+        background-color: white;
+    }
+    .pic1{
+        margin-top:30px;
+    }
+    img{
+        margin-bottom: 30px;
+    }
+    .pic2 {
+        border: solid 2px rgb(170, 135, 161);
+    }
+     .pic3 {
+         border: solid 2px rgb(180, 162, 137); 
+     }
+     .pic4 {
+         
+         border: solid 2px rgb(133, 78, 6);
+     }
+     .picc {
+     
+         text-align: center;
+     }
+     .pic5 {
+         border: solid 2px rgb(212, 116, 113);
+         
+     }
+     .pic6 {
+         
+         border: solid 2px rgb(182, 182, 182);
+         
+     }
+     .pic7 {
+         border: solid 2px rgb(189, 119, 101);
+        
+     }
+     .pic8 {
+         border: solid 2px rgb(68, 155, 196);
+     }
+}
+
+@media(min-width:481px) and (max-width:768px){
+    .flower {
+        position: fixed;
+        z-index: -1;
+        width:auto;
+        height:100%;
+        display: block;
+    }
+    body {
+        background: linear-gradient(#fafaa4,#f9d2ff);
+        background-repeat: repeat;
+        background-attachment: fixed;
+        text-align: center;
+    }
+
+    header {
+        background-color: rgb(0, 0, 0);
+    }
+
+    header::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+    nav {
+        float: left;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+        margin-left: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    a {
+        color: rgb(255, 255, 255);
+        font-size: 19px;
+        text-decoration: none;
+        font-family: '';
+    }
+
+    a:hover {
+        color: rgb(255, 0, 0);
+        text-decoration: underline;
+    }
+    .button {
+        font-size: 19px;
+        margin: 15px 50px 0px 50px;
+        padding: 8px;
+        border: solid 1.5px black;
+        border-radius: 17px;
+        background-color: rgb(236, 249, 255);
+    }
+    h1 {
+        border: solid 1.9px black;
+        border-radius: 30px 0px 30px 0px;
+        padding: 10px;
+        margin-left: 60px;
+        margin-top: 30px;
+        margin-right:60px;
+        font-size: 32px;
+        background-color: white;
+    }
+    .pic1{
+        margin-top:30px;
+    }
+    img{
+        margin-bottom: 30px;
+        width: 60%;
+        height:auto;
+    }
+    .pic2 {
+        border: solid 2px rgb(170, 135, 161);
+    }
+     .pic3 {
+         border: solid 2px rgb(180, 162, 137); 
+     }
+     .pic4 {
+         
+         border: solid 2px rgb(133, 78, 6);
+     }
+     .picc {
+     
+         text-align: center;
+     }
+     .pic5 {
+         border: solid 2px rgb(212, 116, 113);
+         
+     }
+     .pic6 {
+         
+         border: solid 2px rgb(182, 182, 182);
+         
+     }
+     .pic7 {
+         border: solid 2px rgb(189, 119, 101);
+        
+     }
+     .pic8 {
+         border: solid 2px rgb(68, 155, 196);
+     }
+
+}
+
+@media(min-width:769px) and (max-width:1024px){
+    .flower {
+        position: fixed;
+        z-index: -1;
+        width:120%;
+        height:100%;
+        display: block;
+    }
+    body {
+        background: linear-gradient(#fafaa4,#f9d2ff);
+        background-repeat: repeat;
+        background-attachment: fixed;
+        text-align: center;
+    }
+    header {
+        background-color: rgb(0, 0, 0);
+    }
+
+    header::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+    nav {
+        float: left;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+        margin-left: 30px;
+        margin-right: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    a {
+        color: rgb(255, 255, 255);
+        font-size: 21px;;
+        text-decoration: none;
+        font-family: '';
+    }
+
+    a:hover {
+        color: rgb(255, 0, 0);
+        text-decoration: underline;
+    }
+
+    .button {
+        font-size: 22px;
+        margin: 25px 50px 10px 50px;
+        padding: 10px;
+        border: solid 1.5px black;
+        border-radius: 18px;
+        background-color: rgb(236, 249, 255);
+    }
+    h1 {
+        border: solid 1.9px black;
+        border-radius: 30px 0px 30px 0px;
+        padding: 10px;
+        margin-left: 60px;
+        margin-top: 40px;
+        margin-right:60px;
+        font-size: 37px;
+        background-color: white;
+    }
+    .pic1, .pic2{
+        margin-top:35px;
+    }
+    img{
+        margin-bottom: 30px;
+        width: 40%;
+        height:auto;
+        margin:20px;
+    }
+    .pic2 {
+        border: solid 2px rgb(170, 135, 161);
+    }
+     .pic3 {
+         border: solid 2px rgb(180, 162, 137); 
+     }
+     .pic4 {
+         
+         border: solid 2px rgb(133, 78, 6);
+     }
+     .picc {
+     
+         text-align: center;
+     }
+     .pic5 {
+         border: solid 2px rgb(212, 116, 113);
+         
+     }
+     .pic6 {
+         
+         border: solid 2px rgb(182, 182, 182);
+         
+     }
+     .pic7 {
+         border: solid 2px rgb(189, 119, 101);
+        
+     }
+     .pic8 {
+         border: solid 2px rgb(68, 155, 196);
+     }
+
+}
+
+@media(min-width:1025px) and (max-width:1200px){
+    .flower {
+        position: fixed;
+        z-index: -1;
+        width:100%;
+        height:100%;
+        display: block;
+    }
+    body {
+        background: linear-gradient(#fafaa4,#f9d2ff);
+        background-repeat: repeat;
+        background-attachment: fixed;
+        text-align: center;
+    }
+    header {
+        background-color: rgb(0, 0, 0);
+    }
+
+    header::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+    nav {
+        float: left;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+        margin-left: 30px;
+        margin-right: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    a {
+        color: rgb(255, 255, 255);
+        font-size: 21px;;
+        text-decoration: none;
+        font-family: '';
+    }
+
+    a:hover {
+        color: rgb(255, 0, 0);
+        text-decoration: underline;
+    }
+
+    .button {
+        font-size: 22px;
+        margin: 25px 50px 10px 50px;
+        padding: 10px;
+        border: solid 1.5px black;
+        border-radius: 18px;
+        background-color: rgb(236, 249, 255);
+    }
+    h1 {
+        border: solid 1.9px black;
+        border-radius: 30px 0px 30px 0px;
+        padding: 10px;
+        margin-left: 60px;
+        margin-top: 40px;
+        margin-right:60px;
+        font-size: 37px;
+        background-color: white;
+    }
+    .pic1, .pic2{
+        margin-top:35px;
+    }
+    img{
+        margin-bottom: 30px;
+        width: 35%;
+        height:auto;
+        margin:20px;
+    }
+    .pic2 {
+        border: solid 2px rgb(170, 135, 161);
+    }
+     .pic3 {
+         border: solid 2px rgb(180, 162, 137); 
+     }
+     .pic4 {
+         
+         border: solid 2px rgb(133, 78, 6);
+     }
+     .picc {
+     
+         text-align: center;
+     }
+     .pic5 {
+         border: solid 2px rgb(212, 116, 113);
+         
+     }
+     .pic6 {
+         
+         border: solid 2px rgb(182, 182, 182);
+         
+     }
+     .pic7 {
+         border: solid 2px rgb(189, 119, 101);
+        
+     }
+     .pic8 {
+         border: solid 2px rgb(68, 155, 196);
+     }
+   }
+
+@media(min-width:1201px){
+    .flower {
+        position: fixed;
+        z-index: -1;
+        width:100%;
+        height:100%;
+        display: block;
+    }
+body {
+    background: linear-gradient(#fafaa4,#f9d2ff);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+header {
+    background-color: rgb(0, 0, 0);
+}
+ header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+ nav {
+    float: left;
+}
+ ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ li {
+    display: inline-block;
+    margin-left: 55px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+ a {
+    color: rgb(255, 255, 255);
+    font-size: large;
+    text-decoration: none;
+    font-family: '';
+}
+ a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+.head {
+    text-align: center;
+}
+h1 {
+     border: solid 1.9px black;
+     border-radius: 30px 0px 30px 0px;
+     padding: 10px;
+     font-size: 30px;
+     background-color: white;
+     margin-right: 350px;
+     margin-left: 350px;
+     margin-top: 40px;
+ }
+
+ .button {
+     font-size: 15px;
+     margin: 15px 50px 0px 50px;
+     padding: 8px;
+     border: solid 1.5px black;
+     border-radius: 17px;
+     background-color: rgb(255, 255, 255);
+ }
+ .pic1 {
+     margin-top: 30px;
+ }
+ .pic2 {
+     margin-left: 30px;
+     border: solid 2px rgb(170, 135, 161);
+ }
+  .pic3 {
+      margin-left: 30px;
+      margin-top: 35px;
+      border: solid 2px rgb(180, 162, 137); 
+  }
+  .pic4 {
+      margin-left: 30px;
+      border: solid 2px rgb(133, 78, 6);
+  }
+  .picc {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .pic5 {
+      border: solid 2px rgb(212, 116, 113);
+      margin-bottom: 45px;
+      margin-left: 30px;
+  }
+  .pic6 {
+      margin-left: 30px;
+      border: solid 2px rgb(182, 182, 182);
+      margin-right: 30px;
+  }
+  .pic7 {
+      border: solid 2px rgb(189, 119, 101);
+      margin-right: 30px;
+  }
+  .pic8 {
+      border: solid 2px rgb(68, 155, 196);
+      margin-bottom: 45px;
+  }
+}
+
+</style>
+
+<body>
+    <img class="flower" src="bg1.gif" style="opacity: 50%;">
+    <header>
+        <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="talk.html">Talk Talk</a></li>
+            <li><a href="works.html">My Works</a></li>
+        </ul>
+        </nav>
+    </header>    
+    
+    <div class="head">
+        <h1>DRAWING</h1>
+        <a href="drawing.html"><button type="button" class="button" onmouseover="this.style.backgroundColor='rgb(58, 255, 28)'" onmouseout="this.style.backgroundColor='rgb(236, 249, 255)'">
+            <span style="cursor: pointer">DRAWING</span></button></a>
+        <a href="coding.html"><button type="button" class="button" onmouseover="this.style.backgroundColor='rgb(58, 255, 28)'" onmouseout="this.style.backgroundColor='rgb(236, 249, 255)'">
+            <span style="cursor: pointer">CODING</span></button></a></span>
+    </div>
+
+    <div class="pic">
+        <img src="1.1.JPG" class="pic1" width="261.0526316" height="369.2631579" 
+        onmouseover="this.src='1.JPG';"
+        onmouseout="this.src='1.1.JPG';">
+        <img src="2.JPG" class="pic2" width="263.75" height="373.125">
+        <img src="3.JPG" class="pic3" width="240" height="380">
+        <img src="4.JPG" class="pic4" width="250" height="375" 
+        onmouseover="this.src='4.1.JPG';"
+        onmouseout="this.src='4.JPG';">
+    </div>
+    <div class="picc">
+        <img src="6.2.jpg" class="pic6" width="288" height="360"
+        onmouseover="this.src='6.1.JPG';"
+        onmouseout="this.src='6.2.JPG';">
+        <img src="9.JPG" class="pic7" width="250" height="375">
+        <img src="10.1.jpg" class="pic8" width="273.066666667" height="273.066666667" 
+        onmouseover="this.src='10.2.JPG';"
+        onmouseout="this.src='10.1.JPG';">
+        <img src="11.1.jpg" class="pic5" width="273.066666667" height="273.066666667" 
+        onmouseover="this.src='11.2.JPG';"
+        onmouseout="this.src='11.1.JPG';">
+    </div>
+</body>
+</html>

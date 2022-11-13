@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Works</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300&display=swap" rel="stylesheet">
+</head>
+<style>
+
+    @media(max-width:319px){
+        img {
+            position: fixed;
+            z-index: -1;
+            width:auto;
+            height:100%;
+            display: block;
+        }
+        
+    body {
+        background: linear-gradient(#fafaa4,#f9d2ff);
+        background-repeat: repeat;
+        background-attachment: fixed;
+        text-align: center;
+    }
+    header {
+        background-color: rgb(0, 0, 0);
+    }
+     header::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+     nav {
+        float: left;
+    }
+     ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+     li {
+        display: inline-block;
+        margin-left: 25px;
+        padding-top: 14px;
+        padding-bottom: 15px;
+    }
+     a {
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+        text-decoration: none;
+        font-family: '';
+    }
+     a:hover {
+        color: rgb(255, 0, 0);
+        text-decoration: underline;
+    }
+    h1 {
+        text-align: center;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 35px;
+        font-size: 25px;
+        border: solid 1.5px black;
+        border-radius: 30px;
+        padding: 15px;
+        background-color: #e0f4ff;
+    }
+    .one {
+        font-family: 'Kanit';
+        margin-bottom: 35px;
+        font-size: 15px;
+    }
+    .button {
+        font-size: 14px;
+        padding: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 25px;
+        border-radius: 10px;
+        background-color: rgb(255, 231, 231);
+    }
+    .button:hover {
+        transform: translate(0,0px);
+        box-shadow: 10px -10px 0px 0px rgb(98, 201, 196);
+    }
+    
+    .enjoy {
+        margin-top: 40px;
+        margin-right: 10px;
+        margin-left:10px;
+        text-align: center;
+        font-size: 11px;
+        color:rgb(163, 17, 17);
+        font-weight: bold;
+    }
+    img {
+        position: fixed;
+        z-index: -1;
+        width:260%;
+        height:100%;
+        display: block;
+    }
+}
+
+@media(max-width:480px) and (min-width:320px){
+    body {
+        background: linear-gradient(#fafaa4,#f9d2ff);
+        background-repeat: repeat;
+        background-attachment: fixed;
+        text-align: center;
+    }
+    header {
+        background-color: rgb(0, 0, 0);
+    }
+     header::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+     nav {
+        float: left;
+    }
+     ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+     li {
+        display: inline-block;
+        margin-left: 25px;
+        padding-top: 14px;
+        padding-bottom: 15px;
+    }
+     a {
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        text-decoration: none;
+        font-family: '';
+    }
+     a:hover {
+        color: rgb(255, 0, 0);
+        text-decoration: underline;
+    }
+    h1 {
+        text-align: center;
+        margin-left: 55px;
+        margin-right: 55px;
+        margin-top: 35px;
+        font-size: 25px;
+        border: solid 1.5px black;
+        border-radius: 30px;
+        padding: 15px;
+        background-color: #e0f4ff;
+    }
+
+    .one {
+        font-family: 'Kanit';
+        margin-bottom: 35px;
+        font-size: 15px;
+    }
+    .button {
+        font-size: 14px;
+        padding: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 25px;
+        border-radius: 10px;
+        background-color: rgb(255, 231, 231);
+    }
+    .button:hover {
+        transform: translate(0,0px);
+        box-shadow: 10px -10px 0px 0px rgb(98, 201, 196);
+    }
+    
+    .enjoy {
+        margin-top: 40px;
+        margin-right: 10px;
+        margin-left:10px;
+        text-align: center;
+        font-size: 9px;
+        color:rgb(163, 17, 17);
+        font-weight: bold;
+    }
+    img {
+        position: fixed;
+        z-index: -1;
+        width:260%;
+        height:100%;
+        display: block;
+    }
+}
+
+@media(max-width:768px) and (min-width:481px){
+    body {
+        background: linear-gradient(#fafaa4,#f9d2ff);
+        background-repeat: repeat;
+        background-attachment: fixed;
+        text-align: center;
+    }
+
+    header {
+        background-color: rgb(0, 0, 0);
+    }
+
+    header::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+    nav {
+        float: left;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+        margin-left: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    a {
+        color: rgb(255, 255, 255);
+        font-size: 19px;;
+        text-decoration: none;
+        font-family: '';
+    }
+
+    a:hover {
+        color: rgb(255, 0, 0);
+        text-decoration: underline;
+    }
+    h1 {
+        text-align: center;
+        margin-left: 140px;
+        margin-right: 140px;
+        margin-top: 47px;
+        font-size: 27px;
+        border: solid 1.5px black;
+        border-radius: 30px;
+        padding: 15px;
+        background-color: #e0f4ff;
+    }
+    .one {
+        font-family: 'Kanit';
+        margin-bottom: 45px;
+        font-size: 17px;
+    }
+    .button {
+        font-size: 15px;
+        padding: 10px;
+        margin-left: 17px;
+        margin-right: 17px;
+        margin-bottom: 25px;
+        border-radius: 10px;
+        background-color: rgb(255, 231, 231);
+    }
+    .button:hover {
+        transform: translate(0,0px);
+        box-shadow: 10px -10px 0px 0px rgb(98, 201, 196);
+    }
+    
+    .enjoy {
+        margin-top: 50px;
+        margin-right: 10px;
+        margin-left:10px;
+        text-align: center;
+        font-size: 13px;
+        color:rgb(163, 17, 17);
+        font-weight: bold;
+    }
+    img {
+        position: fixed;
+        z-index: -1;
+        width:auto;
+        height:100%;
+        display: block;
+    }
+}
+
+@media(max-width:1024px) and (min-width:769px){
+    body {
+        background: linear-gradient(#fafaa4,#f9d2ff);
+        background-repeat: repeat;
+        background-attachment: fixed;
+        text-align: center;
+    }
+    header {
+        background-color: rgb(0, 0, 0);
+    }
+     header::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+     nav {
+        float: left;
+    }
+     ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    li {
+        display: inline-block;
+        margin-left: 30px;
+        padding-top: 14px;
+        padding-bottom: 15px;
+    }
+
+     a {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        text-decoration: none;
+        font-family: '';
+    }
+     a:hover {
+        color: rgb(255, 0, 0);
+        text-decoration: underline;
+    }
+    h1 {
+        text-align: center;
+        margin-left: 250px;
+        margin-right: 250px;
+        margin-top: 60px;
+        font-size: 30px;
+        border: solid 1.5px black;
+        border-radius: 30px;
+        padding: 15px;
+        background-color: #e0f4ff;
+    }
+    .one {
+        font-family: 'Kanit';
+        margin-bottom: 55px;
+        font-size: 19px;
+    }
+    .button {
+        font-size: 17px;
+        padding: 10px;
+        margin-left: 17px;
+        margin-right: 17px;
+        margin-bottom: 25px;
+        border-radius: 10px;
+        background-color: rgb(255, 231, 231);
+    }
+    .button:hover {
+        transform: translate(0,0px);
+        box-shadow: 10px -10px 0px 0px rgb(98, 201, 196);
+    }
+    
+    .enjoy {
+        margin-top: 60px;
+        margin-right: 10px;
+        margin-left: 10px;
+        text-align: center;
+        font-size: 14px;
+        color:rgb(163, 17, 17);
+        font-weight: bold;
+    }
+    img {
+        position: fixed;
+        z-index: -1;
+        width:120%;
+        height:100%;
+        display: block;
+    }
+}
+ 
+@media(max-width:1200px) and (min-width:1025px){
+    body {
+        background: linear-gradient(#fafaa4,#f9d2ff);
+        background-repeat: repeat;
+        background-attachment: fixed;
+        text-align: center;
+    }
+    header {
+        background-color: rgb(0, 0, 0);
+    }
+     header::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+     nav {
+        float: left;
+    }
+     ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+     li {
+        display: inline-block;
+        margin-left: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+     a {
+        color: rgb(255, 255, 255);
+        font-size: large;
+        text-decoration: none;
+        font-family: '';
+    }
+     a:hover {
+        color: rgb(255, 0, 0);
+        text-decoration: underline;
+    }
+    h1 {
+        font-size: 45px;
+        border: solid 1.5px black;
+        border-radius: 30px;
+        margin-left: 270px;
+        margin-right: 270px;
+        margin-top: 100px;
+        background-color: #e0f4ff;
+        padding: 15px;
+    }
+    .one {
+        font-family: 'Kanit';
+        margin-bottom: 65px;
+        font-size: 22px;
+    }
+    .button {
+        font-size: 19px;
+        padding: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 70px;
+        border-radius: 10px;
+         background-color: rgb(255, 255, 255);
+    }
+    .button:hover {
+        transform: translate(0,0px);
+        box-shadow: 10px -10px 0px 0px rgb(98, 201, 196);
+    }
+    
+    .enjoy {
+        font-size: 17px;
+        color:rgb(163, 17, 17);
+        font-weight: bold;
+    }
+    img {
+        position: fixed;
+        z-index: -1;
+        width:100%;
+        height:100%;
+        display: block;
+    }
+}
+
+    @media(min-width:1201px){
+    body {
+        background: linear-gradient(#fafaa4,#f9d2ff);
+        background-repeat: repeat;
+        background-attachment: fixed;
+        text-align: center;
+    }
+    header {
+        background-color: rgb(0, 0, 0);
+    }
+     header::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+     nav {
+        float: left;
+    }
+     ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+     li {
+        display: inline-block;
+        margin-left: 55px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+     a {
+        color: rgb(255, 255, 255);
+        font-size: large;
+        text-decoration: none;
+        font-family: '';
+    }
+     a:hover {
+        color: rgb(255, 0, 0);
+        text-decoration: underline;
+    }
+    h1 {
+        font-size: 50px;
+        border: solid 1.5px black;
+        border-radius: 30px;
+        margin-left: 370px;
+        margin-right: 370px;
+        margin-top: 100px;
+        background-color: #e0f4ff;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+    .one {
+        font-family: 'Kanit';
+        margin-bottom: 65px;
+        font-size: 18px;
+    }
+    .button {
+        font-size: 18px;
+        padding: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 65px;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .button:hover {
+        transform: translate(0,0px);
+        box-shadow: 10px -10px 0px 0px rgb(98, 201, 196);
+    }
+    
+
+    .enjoy {
+        font-size: 17px;
+        color:rgb(163, 17, 17);
+        font-weight: bold;
+    }
+    img {
+        position: fixed;
+        z-index: -1;
+        width:100%;
+        height:100%;
+        display: block;
+    }
+}
+        
+    </style>
+    
+    <body>
+        <img src="bg1.gif" style="opacity: 50%;">
+        <header>
+            <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="talk.html">Talk Talk</a></li>
+                <li><a href="works.html">My Works</a></li>
+            </ul>
+            </nav>
+        </header>
+        <div class="head">
+        <h1>MY WORK</h1>
+        <p class="one">ผลงานของฉัน</p>
+        </div>
+    
+        <a href="drawing.html"><button type="button" class="button" onmouseover="this.style.backgroundColor='rgb(106, 249, 230)'" onmouseout="this.style.backgroundColor='rgb(253, 235, 238)'"><span style="cursor: pointer">DRAWING</span></button></a>
+        <a href="coding.html"><button type="button" class="button" onmouseover="this.style.backgroundColor='rgb(106, 249, 230)'" onmouseout="this.style.backgroundColor='rgb(253, 235, 238)'"><span style="cursor: pointer">CODING CLASS</span></button></a><br>
+       
+        <p class="enjoy">
+        ----- H O P E&nbsp;&nbsp;&nbsp;Y O U&nbsp;&nbsp;&nbsp;E N J O Y&nbsp;&nbsp;&nbsp;W A T C H I N G&nbsp;&nbsp;&nbsp;M Y&nbsp;&nbsp;&nbsp;W O R K S -----
+        </p>
+    </body>
+    </html>
