@@ -560,22 +560,6 @@
 </style>
 
 <body>
-    <div id="overlay"></div>
-    <audio id="myaudio" controls autoplay loop="loop">
-        <source src="https://Lalalulu12.github.io/bgsound.mp3" type="audio/mpeg">
-    </audio><br>
-    
-    <script>
-    var myaudio = document.querySelector('#myaudio');
-    var _overlay = document.querySelector('#overlay');
-        
-        _overlay.addEventListener('click',function(e) {myaudio.play();
-          _overlay.remove(); },false;)
-        
-        setTimeout(function() {
-            _overlay.style.display = 'block'; },1000)
-    </script>
-    
     <img src="bg1.gif" style="opacity: 50%;">
     <header>
         <nav>
@@ -587,6 +571,10 @@
         </nav>
     </header>
 
+    <audio controls autoplay loop="loop">
+        <source src="bgsound.mp3" type="audio/mpeg">
+    </audio>
+    
     <div>
         <h1>&hearts; Hello &hearts;</h1>
         <h2>Welcome Everyone<br> To My Website</h2>
